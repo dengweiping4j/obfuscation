@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--混淆插件配置文件-->
+<config>
+    <property name="classes-naming" value="unique"/>
+    <property name="classes-naming" value="iii"/>
+    <property name="methods-naming" value="iii"/>
+    <property name="fields-naming" value="iii"/>
+    <!--方法参数名称保持不变，避免公共api接口等出现异常 -->
+    <property name="local-variables-naming" value="keep-parameters"/>
+    <!-- 输入和输出jar配置，out指向的是加密后的jar -->
+    <input>
+        <dir in="" out=""/>
+    </input>
+    <ignore-classes>
+        <class template="class org.springframework.boot.*"/>
+        <class template="class cn.sinobest.sinogear.*"/>
+    </ignore-classes>
+    <keep-names>
+    </keep-names>
+</config>
