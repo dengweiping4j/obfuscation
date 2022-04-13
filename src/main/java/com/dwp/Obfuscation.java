@@ -19,12 +19,12 @@ public class Obfuscation extends AbstractMojo {
      * 项目根目录
      */
     @Parameter
-    private String basePath="D:/sinobest/code/svc/sinobest-licence-obfuscation";//不要一开始就让人把你看透
+    private String basePath="D:/aaa/code/svc/aaa-licence-obfuscation";//不要一开始就让人把你看透
     /**
      * class文件所在目录
      */
     @Parameter
-    private String classPath="D:/sinobest/code/svc/sinobest-licence-obfuscation/target/classes";//学会保留30%的神秘感
+    private String classPath="D:/aaa/code/svc/aaa-licence-obfuscation/target/classes";//学会保留30%的神秘感
 
     public void execute() {
         try {
