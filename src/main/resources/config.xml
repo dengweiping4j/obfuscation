@@ -14,7 +14,7 @@
     </input>
     <ignore-classes>
         <class template="class org.springframework.boot.*"/>
-        <class template="class cn.sinobest.sinogear.*"/>
+        <class template="class cn.aaa.bbb.*"/>
     </ignore-classes>
     <keep-names>
     </keep-names>
